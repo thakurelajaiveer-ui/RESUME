@@ -32,3 +32,26 @@ fetch("https://api.github.com/users/thakurelajaiveer-ui/repos")
 toggle.addEventListener("click", () => {
   document.body.classList.toggle("dark-mode");
 });
+const roles = [
+ "Web Developer",
+ "Java Developer",
+ "Problem Solver",
+ "Frontend Developer"
+];
+new Typed(".typing",{
+ strings:roles,
+ typeSpeed:80,
+ backSpeed:50,
+ loop:true
+});
+ScrollReveal().reveal('.project-card',{
+    delay:200,
+    distance:'60px',
+    origin:'bottom',
+    duration:1000
+});
+
+ScrollReveal().reveal('.skill-card',{
+    delay:300,
+    interval:100
+});
