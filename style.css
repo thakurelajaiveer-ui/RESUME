@@ -63,13 +63,6 @@ section {
   margin-top: 15px;
 }
 
-footer {
-  text-align: center;
-  background: #333;
-  color: white;
-  padding: 10px;
-}
-
 #darkToggle {
   position: fixed;
   top: 15px;
@@ -290,4 +283,12 @@ body{
     left:50%;
     bottom:-10px;
     transform:translateX(-50%);
+}
+.footer{
+    background:#111827;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+    font-size:18px;
 }
