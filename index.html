@@ -4,44 +4,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jaiveer | Portfolio</title>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
 
+<!-- DARK MODE BUTTON -->
 <button id="darkToggle">🌙</button>
 
+<!-- HEADER -->
 <header class="fade-in">
   <img src="assets/images/jaiveer.jpg" alt="Jaiveer Photo" class="profile-pic">
-  <h1>Hi, I'm Jaiveer 👋</h1>
-  <p>CS Student | AI Intern @ CodeSoft | Web Developer</p>
-  <a href="assets/resume/jaiveer_resume.pdf" download>
-  📄 Download Resume
-</a>
 
-<a href="assets/resume/jaiveer_resume.pdf" target="_blank">
-  👀 View Resume
-</a>
+  <h1>Hi, I'm Jaiveer 👋</h1>
+  <h2>I'm a <span class="typing"></span></h2>
+
+  <p>CS Student | AI Intern @ CodeSoft | Web Developer</p>
+
+  <a href="assets/resume/jaiveer_resume.pdf" download class="btn">📄 Download Resume</a>
+  <a href="assets/resume/jaiveer_resume.pdf" target="_blank" class="btn">👀 View Resume</a>
 </header>
 
+<!-- NAVBAR -->
 <nav>
   <a href="#about">About</a>
   <a href="#skills">Skills</a>
   <a href="#activities">Activities</a>
   <a href="#projects">Projects</a>
   <a href="#contact">Contact</a>
-  <button id="darkToggle">🌙</button>
 </nav>
 
+<!-- ABOUT -->
 <section id="about" class="slide-up">
-  <h2>About Me</h2>
+  <h2 class="section-title">About Me</h2>
   <p>
     Computer Science student passionate about Web Development,
     AI and real-world problem solving.
   </p>
 </section>
 
+<!-- SKILLS -->
 <section id="skills" class="slide-up">
-  <h2>Technical Skills</h2>
+  <h2 class="section-title">Technical Skills</h2>
   <ul>
     <li>HTML, CSS, JavaScript</li>
     <li>Python</li>
@@ -50,8 +60,9 @@
   </ul>
 </section>
 
+<!-- ACTIVITIES -->
 <section id="activities" class="slide-up">
-  <h2>Activities & Strengths</h2>
+  <h2 class="section-title">Activities & Strengths</h2>
   <ul>
     <li>💻 Coder & Problem Solver</li>
     <li>🎖 NCC – Discipline & Leadership</li>
@@ -60,68 +71,52 @@
   </ul>
 </section>
 
+<!-- PROJECTS -->
 <section id="projects" class="slide-up">
-  <h2>Projects</h2>
+  <h2 class="section-title">Projects</h2>
 
-  <div class="project">
-    <h3>Tic Tac Toe AI</h3>
+  <div class="project-card">
+    <h3>🎮 Tic Tac Toe AI</h3>
     <p>Interactive web-based game with AI logic.</p>
+    <a href="https://github.com/thakurelajaiveer-ui/tic-tac-toe" target="_blank">View Project</a>
   </div>
 
-  <div class="project">
-    <h3>Movie Recommendation System</h3>
+  <div class="project-card">
+    <h3>🎬 Movie Recommendation System</h3>
     <p>Python-based movie recommendation project.</p>
   </div>
+
+  <div class="project-card">
+    <h3>💼 CodeSoft Internship Tasks</h3>
+    <a href="https://github.com/thakurelajaiveer-ui/CODSOFT" target="_blank">View Repository</a>
+  </div>
 </section>
 
+<!-- CONTACT -->
 <section id="contact" class="slide-up">
-  <h2>Contact</h2>
-  <p>📧 Email: <a href="mailto:thakurelajaiveer@gmail.com">thakurelajaiveer@gmail.com</a></p>
-  <p>📞 Mobile: <a href="tel:9870833874">9870833874</a></p>
-  <p>💻 GitHub: <a href="https://github.com/thakurelajaiveer-ui" target="_blank">thakurelajaiveer-ui</a></p>
+  <h2 class="section-title">Contact</h2>
+
+  <a href="mailto:thakurelajaiveer@gmail.com" class="btn">💼 Hire Me</a>
+  <a href="tel:9870833874" class="btn">📞 Call Me</a>
+  <a href="https://github.com/thakurelajaiveer-ui" target="_blank" class="btn">💻 GitHub</a>
 </section>
 
-
-<script src="script.js"></script>
-</body>
-</html><a href="mailto:thakurelajaiveer@gmail.com " class="btn">💼 Hire Me</a>
-<a href="tel:9870833874" class="btn">📞 Call Me</a>
-<section id="projects">
-  <h2>🚀 My GitHub Projects</h2>
-  <div id="repo-list"></div>
-</section>
-<a href="assets/resume/jaiveer_resume.pdf" target="_blank">👀 View Resume</a>
-<section id="projects">
-  <h2>🚀 My GitHub Projects</h2>
-
-  <ul>
-    <li>
-      <a href="https://github.com/thakurelajaiveer-ui/tic-tac-toe" target="_blank">
-        🎮 Tic Tac Toe Game
-      </a>
-    </li>
-
-    <li>
-      <a href="https://github.com/thakurelajaiveer-ui/CODSOFT" target="_blank">
-        💼 CodeSoft Internship Tasks
-      </a>
-    </li>
-
-    <li>
-      <a href="https://github.com/thakurelajaiveer-ui" target="_blank">
-        🔗 View All GitHub Repositories
-      </a>
-    </li>
-  </ul>
-</section>
-<h2>
-    I'm a
-    <span class="typing"></span>
-</h2>
-<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-<script src="https://unpkg.com/scrollreveal"></script>
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@2/tsparticles.bundle.min.js"></script>
-
+<!-- FOOTER -->
 <footer class="footer">
-    <p>© 2026 Jaiveer Thakur | AI & ML Engineering Student</p>
+  <p>© 2026 Jaiveer Thakur | AI & ML Engineering Student</p>
 </footer>
+
+<!-- MAIN SCRIPT -->
+<script src="script.js"></script>
+
+<script>
+  new Typed(".typing", {
+    strings: ["Web Developer", "AI Enthusiast", "CS Student"],
+    typeSpeed: 80,
+    backSpeed: 50,
+    loop: true
+  });
+</script>
+
+</body>
+</html>
