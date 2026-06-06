@@ -18,5 +18,5 @@ The website is fully responsive and deployed using GitHub Pages.
 Visit the portfolio via GitHub Pages.
 
 ## Author
-Jaiveer Thakur  
+Jaiveer  
 GitHub: https://github.com/thakurelajaiveer-ui
